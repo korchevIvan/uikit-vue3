@@ -1,0 +1,20 @@
+:root {
+  --primary-color: #6979f8;
+  --primary-color-hover: #a5affb;
+  --second-color: #be52f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+}
+
+a {
+  color: var(---primary-color);
+  text-decoration: none;
+}
