@@ -37,7 +37,7 @@ const links = ref([
   width: 250px;
   padding: 20px;
   transition: 0.2s;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.07);
   transform: translateX(-250px);
   &_isopen {
     transform: translateX(0px);
@@ -45,13 +45,12 @@ const links = ref([
   &__link {
     display: block;
     border-radius: 12px;
-    padding: 10px;
     border: 2px solid #fff;
     transition: 0.2s;
     font-weight: bold;
     margin-bottom: 10px;
     &:hover {
-      border-color: var(--primary-color);
+      color: var(--primary);
     }
   }
 }
